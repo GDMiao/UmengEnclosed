@@ -25,7 +25,7 @@
 			<string>微信appKey</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>wx2aa39f61677ccf3e</string>
+				<string>appkeyxxxxx</string>
 			</array>
 		</dict>
 		<dict>
@@ -45,7 +45,7 @@
 			<string>"tencent"+腾讯QQ互联应用appID</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>tencent1106607349</string>
+				<string>tencent110xxxxxxxx</string>
 			</array>
 		</dict>
 		<dict>
@@ -55,7 +55,7 @@
 			<string>“QQ”+腾讯QQ互联应用appID转换成十六进制</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>QQ41F57CF5</string>
+				<string>QQ41xxxxx</string>
 			</array>
 		</dict>
 		<dict>
@@ -65,7 +65,7 @@
 			<string>UMAppKey</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>59e9be4af43e486891000544</string>
+				<string>appkeyxxxxx</string>
 			</array>
 		</dict>
 	</array>
