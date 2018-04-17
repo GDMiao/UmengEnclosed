@@ -15,7 +15,7 @@
 - (BOOL)umengapplication:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 	// UMConfigure 通用设置，请参考SDKs集成做统一初始化。
-	[UMConfigure initWithAppkey:@"59e9be4af43e486891000544" channel:@"App Store"];
+	[UMConfigure initWithAppkey:@"appKey" channel:@"App Store"];
 	[UMConfigure setLogEnabled:YES];
 	// U-Share 平台设置
 	[self configUSharePlatforms];
