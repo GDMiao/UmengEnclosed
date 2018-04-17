@@ -77,8 +77,8 @@
 - (void)configUSharePlatforms
 {
 	/* 设置微信的appKey和appSecret */
-	[[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_WechatSession appKey:@"wx2aa39f61677ccf3e" appSecret:@"cf3bf7181a628246732c114e38195c85" redirectURL:@"http://mobile.umeng.com/social"];
-	[[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_WechatTimeLine appKey:@"wx2aa39f61677ccf3e" appSecret:@"cf3bf7181a628246732c114e38195c85" redirectURL:@"http://mobile.umeng.com/social"];
+	[[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_WechatSession appKey:@"appKey" appSecret:@"appSecret" redirectURL:@"http://mobile.umeng.com/social"];
+	[[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_WechatTimeLine appKey:@"appKey" appSecret:@"appSecret" redirectURL:@"http://mobile.umeng.com/social"];
 	/*
 	 * 移除相应平台的分享，如微信收藏
 	 */
@@ -86,10 +86,10 @@
 	/* 设置分享到QQ互联的appID
 	 * U-Share SDK为了兼容大部分平台命名，统一用appKey和appSecret进行参数设置，而QQ平台仅需将appID作为U-Share的appKey参数传进即可。
 	 */
-	[[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_QQ appKey:@"1106607349"/*设置QQ平台的appID*/  appSecret:nil redirectURL:@"http://mobile.umeng.com/social"];
-	[[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_Qzone appKey:@"1106607349"/*设置QQ平台的appID*/  appSecret:nil redirectURL:@"http://mobile.umeng.com/social"];
+	[[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_QQ appKey:@"QQ平台的appID"/*设置QQ平台的appID*/  appSecret:nil redirectURL:@"http://mobile.umeng.com/social"];
+	[[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_Qzone appKey:@"QQ平台的appID"/*设置QQ平台的appID*/  appSecret:nil redirectURL:@"http://mobile.umeng.com/social"];
 	/* 设置新浪的appKey和appSecret */
-	[[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_Sina appKey:@"3921700954"  appSecret:@"04b48b094faeb16683c32669824ebdad" redirectURL:@"https://sns.whalecloud.com/sina2/callback"];
+	[[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_Sina appKey:@"appKey"  appSecret:@"appSecret" redirectURL:@"https://sns.whalecloud.com/sina2/callback"];
 	
 //	/* 钉钉的appKey */
 //	[[UMSocialManager defaultManager] setPlaform: UMSocialPlatformType_DingDing appKey:@"dingoalmlnohc0wggfedpk" appSecret:nil redirectURL:nil];
