@@ -57,5 +57,58 @@ typedef NS_ENUM(NSUInteger, ShareType) {
  */
 - (void)customWebShareWithVC:(id)vc SocialType:(SocialType)socialType shareType:(ShareType)sharetype webData:(id)data;
 
+#pragma mark -- 分享图文（支持新浪微博）
+/**
+ 分享图文（支持新浪微博）
 
+ @param vc super VC
+ @param socialType 分享平台选择
+ @param sharetype  分享类型选择
+ @param data       分享类型固定参数 {"text":"xxx","thumbImage":"icon","shareImage":@"url"} //如果有缩略图，则设置缩略图
+ */
+- (void)customImage_textXinLangShareWithVC:(id)vc SocialType:(SocialType)socialType shareType:(ShareType)sharetype webData:(id)data;
+
+#pragma mark -- 分享音乐
+/**
+ 分享音乐
+
+ @param vc super VC
+ @param socialType 分享平台选择
+ @param sharetype  分享类型选择
+ @param data       分享类型固定参数 {"title":"xxx","descr":"xxx","thumImage":"icon","musicUrl":"url"}
+ */
+- (void)customMusicShareWithVC:(id)vc SocialType:(SocialType)socialType shareType:(ShareType)sharetype webData:(id)data;
+
+#pragma mark -- 分享视频
+/**
+ 分享视频
+ 
+ @param vc super VC
+ @param socialType 分享平台选择
+ @param sharetype  分享类型选择
+ @param data       分享类型固定参数 {"title":"xxx","descr":"xxx","thumImage":"icon","videoUrl":"url"}
+ */
+- (void)customVedioShareWithVC:(id)vc SocialType:(SocialType)socialType shareType:(ShareType)sharetype webData:(id)data;
+
+#pragma mark -- 分享微信表情
+/**
+ 分享微信表情
+ 
+ @param vc super VC
+ @param socialType 分享平台选择
+ @param sharetype  分享类型选择
+ @param data       分享类型固定参数 {"title":"xxx","descr":"xxx","thumImage":"icon","imgFile":"xxxFile","type":"gif/png/jpg"}
+ */
+- (void)customEmoticonShareWithVC:(id)vc SocialType:(SocialType)socialType shareType:(ShareType)sharetype webData:(id)data;
+
+#pragma mark -- 分享微信小程序
+/**
+ 分享微信小程序
+ 
+ @param vc super VC
+ @param socialType 分享平台选择
+ @param sharetype  分享类型选择
+ @param data       分享类型固定参数 {"title":"xxx","descr":"xxx","webpageUrl":"兼容微信低版本网页地址","userName":"小程序username","path":"小程序页面路径，如 pages/page10007/page10007","logo":"logo.png"}
+ */
+- (void)customMiniProgramShareWithVC:(id)vc SocialType:(SocialType)socialType shareType:(ShareType)sharetype webData:(id)data;
 @end
