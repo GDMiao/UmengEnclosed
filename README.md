@@ -227,7 +227,7 @@
   ```
   #import "UmengEnclosed.h"
   
-  - (IBAction)UmengSharedAciton:(id)sender {
+  - (IBAction)umengSharedAciton:(id)sender {
   	UmengEnclosed *umeng = [UmengEnclosed sharedUmengEnclosed];
   	[umeng customTextShareWithVC:self SocialType:SType_sina_wx_qq shareType:ShareText textData:@"OK"];
   }
