@@ -12,7 +12,7 @@
 * AppDelegate+UMeng
 * UmengEnclosed
 
-![App + Umeng.png](quiver-image-url/22B4FE64D036B608ABFE39CEA21908D4.png =260x87)
+![App + Umeng.png](https://upload-images.jianshu.io/upload_images/2093550-8c0b531778aa0268.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 ### Cocoapods 集成、白名单、URL Scheme 
